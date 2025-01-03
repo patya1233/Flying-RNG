@@ -1,0 +1,195 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Fack HUB", HidePremium = false,  Introtext = "Fack HUB", SaveConfig = true, ConfigFolder = "Fack HUB"})
+
+OrionLib:MakeNotification({
+	Name = "hey",
+	Content = "I thed it for the first just",
+	Image = "rbxassetid://4483345998",
+	TimeTime
+	})
+
+    local aTab = Window:MakeTab({
+        Name = "book1 chapter1",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+        })
+
+        local Section = aTab:AddSection({
+            Name = "tp"
+        })
+
+        aTab:AddButton({
+            Name = "tp tent 1",
+            Callback = function()
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(19759.9062, 415.437073, 5409.60986, 0.979833543, 3.92088921e-08, 0.199815467, -4.56876137e-08, 1, 2.78124883e-08, -0.199815467, -3.63807011e-08, 0.979833543)
+              end    
+        })
+
+        aTab:AddButton({
+            Name = "tp tent 2",
+            Callback = function()
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(20231.2363, 730.922241, 5691.22021, 0.132026106, -2.54951065e-08, -0.991246223, -1.70600085e-08, 1, -2.79925132e-08, 0.991246223, 2.06064126e-08, 0.132026106)
+              end    
+        })
+
+        aTab:AddButton({
+            Name = "tp tent 3",
+            Callback = function()
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(19953.5898, 1142.6344, 5552.18066, -0.50312537, 9.3410371e-08, -0.864213407, 9.42720035e-08, 1, 5.32041398e-08, 0.864213407, -5.47027739e-08, -0.50312537)
+              end    
+        })
+
+        local Section = aTab:AddSection({
+            Name = "Rod new"
+        })
+
+        aTab:AddButton({
+            Name = "button 1",
+            Callback = function()
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(391.47821, 134.579956, 258.89209, 0.465693563, 6.37540367e-08, 0.884946048, 1.16699095e-08, 1, -7.81840157e-08, -0.884946048, 4.6737032e-08, 0.465693563)
+                wait(2)
+                local player = game.Players.LocalPlayer.Character.HumanoidRootPart
+                for i, v in pairs(workspace.world.map["Northern Summit"].Puzzles.HardPuzzle.Buttons.MoosewoodButton:GetChildren()) do
+                    if v.Name == "Button" then
+                        local prox = v:FindFirstChildOfClass("ProximityPrompt")
+                        player.CFrame = v.CFrame
+                        if prox then
+                            wait(0.5)
+                            fireproximityprompt(prox)
+                        end
+                    end
+                end
+              end    
+        })
+
+        aTab:AddButton({
+            Name = "button 2",
+            Callback = function()
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2920.25854, 281.78363, 2577.50049, -0.669619381, -1.6365453e-08, -0.742704451, -1.47698653e-08, 1, -8.71849526e-09, 0.742704451, 5.13157117e-09, -0.669619381)
+                wait(2)
+                local player = game.Players.LocalPlayer.Character.HumanoidRootPart
+for i, v in pairs(workspace.world.map["Northern Summit"].Puzzles.HardPuzzle.Buttons.SnowcapButton:GetChildren()) do
+    if v.Name == "Button" then
+        local prox = v:FindFirstChildOfClass("ProximityPrompt")
+        player.CFrame = v.CFrame
+        if prox then
+            wait(0.5)
+            fireproximityprompt(prox)
+        end
+    end
+end
+              end    
+        })
+
+
+        aTab:AddButton({
+            Name = "button 3",
+            Callback = function()
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5494.58594, 143.496597, -304.747528, -0.134823382, 6.52346941e-08, 0.990869641, 8.77113848e-09, 1, -6.4642343e-08, -0.990869641, -2.42446115e-11, -0.134823382)
+                wait(2)
+                local player = game.Players.LocalPlayer.Character.HumanoidRootPart
+for i, v in pairs(workspace.world.map["Northern Summit"].Puzzles.HardPuzzle.Buttons.AncientIslesButton:GetChildren()) do
+    if v.Name == "Button" then
+        local prox = v:FindFirstChildOfClass("ProximityPrompt")
+        player.CFrame = v.CFrame
+        if prox then
+            wait(0.5)
+            fireproximityprompt(prox)
+        end
+    end
+end
+              end    
+        })
+
+        aTab:AddButton({
+            Name = "button 4",
+            Callback = function()
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1722.52808, 148.000015, 738.148254, -0.639257193, -2.06614317e-08, 0.76899296, -9.20596719e-08, 1, -4.96602368e-08, -0.76899296, -1.02538905e-07, -0.639257193)
+                wait(2)
+                local player = game.Players.LocalPlayer.Character.HumanoidRootPart
+for i, v in pairs(workspace.world.map["Northern Summit"].Puzzles.HardPuzzle.Buttons.RoslitButton:GetChildren()) do
+    if v.Name == "Button" then
+        local prox = v:FindFirstChildOfClass("ProximityPrompt")
+        player.CFrame = v.CFrame
+        if prox then
+            wait(0.5)
+            fireproximityprompt(prox)
+        end
+    end
+end
+              end    
+        })
+
+        aTab:AddButton({
+            Name = "button 5",
+            Callback = function()
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2568.00391, 181.250137, 1347.6698, 0.91622895, -2.21672636e-09, -0.400655091, -3.03280814e-08, 1, -7.48878364e-08, 0.400655091, 8.07655027e-08, 0.91622895)
+                wait(2)
+                local player = game.Players.LocalPlayer.Character.HumanoidRootPart
+for i, v in pairs(workspace.world.map["Northern Summit"].Puzzles.HardPuzzle.Buttons.ForsakenButton:GetChildren()) do
+    if v.Name == "Button" then
+        local prox = v:FindFirstChildOfClass("ProximityPrompt")
+        player.CFrame = v.CFrame
+        if prox then
+            wait(0.5)
+            fireproximityprompt(prox)
+        end
+    end
+end
+              end    
+        })
+
+        aTab:AddButton({
+            Name = "Avalanche Totem",
+            Callback = function()
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(19712.4219, 467.630615, 6053.40283, -0.45590806, 2.96975724e-08, 0.890026867, -2.52928078e-08, 1, -4.63230592e-08, -0.890026867, -4.36303331e-08, -0.45590806)
+              end    
+        })
+
+
+        local Section = aTab:AddSection({
+            Name = "crystal"
+        })
+
+        aTab:AddButton({
+            Name = "Blue Energy Crystal",
+            Callback = function()
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(20130.7988, 208.370087, 5441.51709, -0.867771447, -4.26349267e-09, 0.496963471, -6.10123152e-09, 1, -2.07456319e-09, -0.496963471, -4.83233586e-09, -0.867771447)
+              end    
+        })
+
+        aTab:AddButton({
+            Name = "Green Energy Crystal",
+            Callback = function()
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(19882.6895, 448.094086, 5559.12842, 0.444368511, 7.42451078e-08, 0.895844102, -6.72034872e-08, 1, -4.95420949e-08, -0.895844102, -3.81889045e-08, 0.444368511)
+                      end    
+                })
+
+        aTab:AddButton({
+            Name = "Yello Energy Crystal(รอพายุหิมะถึงเกิดหรือใช้ Avalanche Totem)",
+            Callback = function()
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(19500.4473, 335.451538, 5555.44385, 0.704134405, -7.13256654e-08, 0.710066736, 2.36286724e-08, 1, 7.70179795e-08, -0.710066736, -3.74530735e-08, 0.704134405)
+                      end    
+                })
+
+                aTab:AddButton({
+                    Name = "Red Energy Crystal(กดปุ่ม 5 ปุ่มก่อน)",
+                    Callback = function()
+                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(19926.3418, 1137.8894, 5360.521, 0.652244985, -1.04427524e-08, 0.758008242, 4.2535877e-09, 1, 1.01164748e-08, -0.758008242, -3.37416561e-09, 0.652244985)
+                              end    
+                        })
+
+
+        local Section = aTab:AddSection({
+            Name = "Rod"
+        })
+
+        aTab:AddButton({
+            Name = "Heaven's Rod",
+            Callback = function()
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(20025.0098, -467.665955, 7111.32129, -0.99999541, -5.77653125e-08, -0.00302006933, -5.75377186e-08, 1, -7.54474101e-08, 0.00302006933, -7.52732987e-08, -0.99999541)
+                      end    
+                })
+
+OrionLib:Init()
