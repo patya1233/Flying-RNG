@@ -3,7 +3,7 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
    Name = "Fack HUB",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
-   LoadingTitle = "Flying RNG",
+   LoadingTitle = "Flying RNG 🎲",
    LoadingSubtitle = "by KENG",
    Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
@@ -36,11 +36,11 @@ local Window = Rayfield:CreateWindow({
 
 local aTab = Window:CreateTab("tp", "align-justify")
 
-local Section = aTab:CreateSection("วาปสำหรับพวกขี้เกียจ")
+local Section = aTab:CreateSection("🦥🦥 วาปสำหรับพวกขี้เกียจ 🦥🦥")
 
 local isActive = false
 local Toggle = aTab:CreateToggle({
-   Name = "ออโต้เก็บกล่อง",
+   Name = "ออโต้เก็บกล่อง 📦📦",
    CurrentValue = false,
    Flag = "Toggle1",
    Callback = function(Value)
@@ -71,7 +71,7 @@ local Toggle = aTab:CreateToggle({
 
 local fg = false
 local Toggle = aTab:CreateToggle({
-   Name = "ออโต้เก็บลูกเต๋า",
+   Name = "ออโต้เก็บลูกเต๋า 🎲🎲",
    CurrentValue = false,
    Flag = "Toggle1",
    Callback = function(Value)
